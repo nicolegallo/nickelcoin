@@ -1,0 +1,181 @@
+
+
+body {
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: "Helvetica Neue", Helvetica;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.container {
+  display: block;
+  margin: 1rem;
+}
+
+h1 {
+  line-height: 2rem;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+ul {
+  line-height: 1.4rem;
+}
+
+.film {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  /* background-color: #f1f1f1; */
+  font-size: 1rem;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+.film:hover {
+    color: transparent;
+    transition: 500ms ease;
+
+}
+
+.lol-taught {
+  font-style: italic;
+  color: white;
+}
+
+.lol-taught:hover {
+  color: black;
+    transition: 1000ms ease;
+}
+
+.fun-ideas {
+  color: #eec73e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fun-ideas:hover {
+  color: navy;
+}
+
+.ideas-days a{
+  text-decoration: none;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #f4db83;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #00486b;
+  color: #eec73e;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  margin-bottom: 1rem;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.fa-icon {
+  color: navy;
+  padding-left: .5rem;
+  padding-right: 1rem;
+}
+
+.social {
+  padding-bottom: 1rem;
+}
+
+.imgBx {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.imgBx img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.imgBx:hover .photo2 {
+  display: inline;
+  position: absolute;
+}
+
+
+
+.location {
+  text-decoration: line-through;
+}
+
+a {
+  color: navy;
+}
+
+a:hover {
+  color: green;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  background-color: #00486b;
+  color: #eec73e;
+  padding: .25rem 0 .25rem 0;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .lol-taught {
+    font-style: italic;
+    color: lightgray;
+  }
+
+}
+
+@media screen and (max-width: 454px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media screen and (max-width: 349px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+}
